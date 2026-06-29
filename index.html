@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    MAHEEN RIZWAN - PROFESSIONAL DASHBOARD WEBSITE
+    GitHub Pages ready.
+
+    How to add your image later:
+    1. Create a folder called "assets" in the same place as this index.html file.
+    2. Add your image inside the assets folder.
+       Example file name: maheen-profile.jpg
+    3. Find the profile image section below.
+    4. Replace this:
+       <div class="photo-placeholder">MR</div>
+
+       With this:
+       <img src="assets/maheen-profile.jpg" alt="Maheen Rizwan profile photo" class="profile-photo" />
+
+    Keep file names simple. Avoid spaces in image file names.
+  -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Maheen Rizwan | Computer Science Graduate</title>
+  <meta name="description" content="Professional dashboard and portfolio for Maheen Rizwan, a Computer Science graduate skilled in React Native, Kotlin, C#, SQL, software engineering, and full-stack application development." />
+
+  <!-- Social Preview -->
+  <meta property="og:title" content="Maheen Rizwan | Professional Dashboard" />
+  <meta property="og:description" content="Computer Science graduate with experience in mobile apps, full-stack projects, databases, APIs, and software quality." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Maheen<span>Rizwan</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-toggle" id="themeToggle">Soft Dark</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Computer Science Graduate</p>
+        <h1>Hi, I’m <span>Maheen Rizwan</span>.</h1>
+        <h2>Mobile app developer, full-stack project builder, and software problem solver based in London.</h2>
+        <p class="hero-text">
+          I create practical, user-friendly applications using React Native, Kotlin, C#, SQL,
+          REST APIs, and modern software engineering principles. My work includes booking platforms,
+          mobile apps, inventory systems, productivity tools, and code quality projects.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="mini-links" aria-label="Professional links">
+          <a href="https://github.com/maheenr25" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/maheen-rizwan" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:impossibility786135@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Profile summary card">
+        <div class="sparkle sparkle-one">✦</div>
+        <div class="sparkle sparkle-two">✧</div>
+
+        <!-- IMAGE PLACEHOLDER
+          Replace this div with an image later:
+
+          <img src="assets/maheen-profile.jpg" alt="Maheen Rizwan profile photo" class="profile-photo" />
+        -->
+        <div class="photo-placeholder">MR</div>
+
+        <h3>Maheen Rizwan</h3>
+        <p>React Native • Kotlin • C# • SQL • Software Engineering</p>
+
+        <div class="availability-pill">
+          <span></span>
+          Eligible to work in the UK
+        </div>
+      </aside>
+    </section>
+
+    <!-- DASHBOARD SNAPSHOT -->
+    <section class="snapshot section" aria-label="Professional snapshot">
+      <article class="snapshot-card">
+        <h3>BSc</h3>
+        <p>Computer Science Graduate</p>
+      </article>
+
+      <article class="snapshot-card">
+        <h3>6+</h3>
+        <p>Development Projects</p>
+      </article>
+
+      <article class="snapshot-card">
+        <h3>10+</h3>
+        <p>Database Tables Designed</p>
+      </article>
+
+      <article class="snapshot-card">
+        <h3>London</h3>
+        <p>Based in the UK</p>
+      </article>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section split-section" id="about">
+      <div>
+        <p class="eyebrow">About Me</p>
+        <h2>A practical developer with a calm, user-focused approach.</h2>
+      </div>
+
+      <div class="soft-panel">
+        <p>
+          I am a Computer Science graduate from Kingston University with hands-on experience
+          building mobile and full-stack applications. I enjoy turning real problems into
+          clear, working systems with secure login, database design, APIs, dashboards, and
+          smooth user journeys.
+        </p>
+        <p>
+          My technical background includes React Native, Kotlin, C#, SQL, JavaScript, Python,
+          and software testing. I also bring strong communication and customer-facing experience
+          from fast-paced work environments, which helps me build solutions that are easy for
+          real users to understand and use.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <p class="eyebrow">Technical Skills</p>
+      <h2>My development toolkit</h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="icon-bubble">💻</div>
+          <h3>Programming</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>Kotlin</li>
+            <li>SQL</li>
+            <li>C++</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <div class="icon-bubble">📱</div>
+          <h3>Frontend & Mobile</h3>
+          <ul>
+            <li>React Native</li>
+            <li>HTML & CSS</li>
+            <li>Android Development</li>
+            <li>Expo</li>
+            <li>Mobile UI Flows</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <div class="icon-bubble">🗄️</div>
+          <h3>Backend & Data</h3>
+          <ul>
+            <li>REST APIs</li>
+            <li>Authentication Systems</li>
+            <li>SQL Server</li>
+            <li>Relational Database Design</li>
+            <li>DBMS Concepts</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <div class="icon-bubble">🧪</div>
+          <h3>Software Engineering</h3>
+          <ul>
+            <li>OOP</li>
+            <li>Algorithms</li>
+            <li>Software Testing</li>
+            <li>System Analysis</li>
+            <li>Debugging</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <p class="eyebrow">Project Experience</p>
+      <h2>Selected projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-label">Final Year Project</div>
+          <h3>Service Booking Platform</h3>
+          <p>
+            Multi-role platform for consumers, providers, and administrators with secure login,
+            ID verification, relational database design, real-time chat, payment processing,
+            and booking dashboards.
+          </p>
+          <div class="tech-stack">
+            <span>React Native</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>REST API</span>
+          </div>
+          <a href="https://github.com/maheenr25/FYP_FlexiTask_Code" target="_blank" rel="noopener" class="text-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Software Quality</div>
+          <h3>Cyclomatic Complexity Calculator</h3>
+          <p>
+            Web-based tool that analyses submitted code and returns complexity results,
+            helping identify sections that may need refactoring or testing.
+          </p>
+          <div class="tech-stack">
+            <span>JavaScript</span>
+            <span>Python</span>
+          </div>
+          <a href="https://github.com/maheenr25/CodeShield" target="_blank" rel="noopener" class="text-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Mobile App</div>
+          <h3>Treasure Hunt Mobile App</h3>
+          <p>
+            Real-world treasure hunt app using GPS, camera features, Expo device APIs,
+            public/private game modes, clues, and location-based challenges.
+          </p>
+          <div class="tech-stack">
+            <span>React Native</span>
+            <span>Expo</span>
+            <span>GPS</span>
+            <span>Camera</span>
+          </div>
+          <a href="https://github.com/maheenr25/MissionFortune" target="_blank" rel="noopener" class="text-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Database System</div>
+          <h3>Inventory Management System</h3>
+          <p>
+            Stock and supplier management system with secure login, reporting dashboard,
+            inventory tracking, transaction records, and improved data accuracy.
+          </p>
+          <div class="tech-stack">
+            <span>C#</span>
+            <span>SQL Server</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Academic App</div>
+          <h3>Module & Student Management App</h3>
+          <p>
+            App with add, update, delete, and favourite features, separate student/admin
+            interfaces, and backend API connection for real-time sync.
+          </p>
+          <div class="tech-stack">
+            <span>React Native</span>
+            <span>JavaScript</span>
+            <span>REST API</span>
+          </div>
+          <a href="https://github.com/maheenr25/crudler" target="_blank" rel="noopener" class="text-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Android App</div>
+          <h3>Habit Tracker Mobile App</h3>
+          <p>
+            Android app for habit tracking, daily progress, reminders, progress insights,
+            and secure local activity storage.
+          </p>
+          <div class="tech-stack">
+            <span>Kotlin</span>
+            <span>Android Studio</span>
+          </div>
+          <a href="https://github.com/maheenr25/Habit-tracker" target="_blank" rel="noopener" class="text-link">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <p class="eyebrow">Experience</p>
+      <h2>Work experience</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">April 2026 – Present</span>
+          <h3>VR Technician & Games Assistant — VRXtra</h3>
+          <p>
+            Operating and troubleshooting VR hardware, sensors, gaming systems, and software
+            during live sessions. Supporting customers with setup, gameplay guidance, and safety
+            procedures while developing an internal game project for the company.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">2024 – Present</span>
+          <h3>Sales Ambassador — World Duty Free, Heathrow Airport</h3>
+          <p>
+            Using POS and inventory systems, managing customer transactions, supporting stock
+            processes, and communicating with customers from diverse international backgrounds.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">2023</span>
+          <h3>Team Member — Pret A Manger</h3>
+          <p>
+            Worked efficiently during high-volume service periods and handled customer issues
+            quickly, calmly, and professionally.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">2020 – 2022</span>
+          <h3>Online Business Operations Support</h3>
+          <p>
+            Managed product listings, payments, delivery tracking, sales spreadsheets,
+            and online customer experience improvements.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">STEM Placement</span>
+          <h3>STEM Research Placement — Open University</h3>
+          <p>
+            Developed a web project using HTML, AJAX, JavaScript, and C++, tested functionality,
+            and presented technical findings.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education-section" id="education">
+      <div>
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </div>
+
+      <div class="education-card">
+        <h3>BSc (Hons) Computer Science</h3>
+        <p class="education-place">Kingston University, London • 2026</p>
+        <p>
+          Relevant coursework includes Software Engineering, Database Systems, Mobile Development,
+          and Programming. Final Year Project focused on a service booking platform with multi-role
+          access, authentication, database design, chat, and payment features.
+        </p>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section language-section">
+      <p class="eyebrow">Languages</p>
+      <h2>Communication</h2>
+
+      <div class="language-pills">
+        <span>English — Fluent</span>
+        <span>Urdu — Fluent</span>
+        <span>Punjabi — Fluent</span>
+        <span>Hindi — Fluent</span>
+        <span>Bengali — Intermediate</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s connect</h2>
+      <p>
+        I’m open to junior software development, mobile app development, technical support,
+        software testing, and graduate technology opportunities.
+      </p>
+
+      <div class="contact-grid">
+        <a href="mailto:impossibility786135@gmail.com" class="contact-card">
+          <span>Email</span>
+          impossibility786135@gmail.com
+        </a>
+
+        <a href="tel:+447424630038" class="contact-card">
+          <span>Phone</span>
+          07424 630038
+        </a>
+
+        <a href="https://github.com/maheenr25" target="_blank" rel="noopener" class="contact-card">
+          <span>GitHub</span>
+          github.com/maheenr25
+        </a>
+
+        <a href="https://linkedin.com/in/maheen-rizwan" target="_blank" rel="noopener" class="contact-card">
+          <span>LinkedIn</span>
+          linkedin.com/in/maheen-rizwan
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Maheen Rizwan. Built with care using HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
